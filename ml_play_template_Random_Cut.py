@@ -64,8 +64,8 @@ class MLPlay:
             #    else: 
             #        command = "MOVE_LEFT" # Cut ball
             #        command = "MOVE_RIGHT" # Reverse Cut ball
-            #Ramdom Cut ball or Reverse cut ball or normal hit ball
             
+        #Ramdom Cut ball or Reverse cut ball or normal hit ball
             command = random.choice(["MOVE_LEFT","MOVE_RIGHT","NONE"])
         elif ball_going_down == 1 and platform_center_x >= (ball_destination+5):
              command = "MOVE_LEFT"
