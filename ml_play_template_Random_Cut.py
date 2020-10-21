@@ -1,7 +1,7 @@
 """
 The template of the main script of the machine learning process
 """
-#   python MLGame.py -i ml_play_template_RandonCut.py -f60 arkanoid NORMAL 5
+#   python MLGame.py -i ml_play_template_Randon_Cut.py -f60 arkanoid NORMAL 5
 
 ball_position_history=[]
 import random
