@@ -1,7 +1,8 @@
 """
 The template of the main script of the machine learning process
+this version is for MLGame 8.0
 """
-#   python MLGame.py -i ml_play_template_Randon_Cut.py -f60 arkanoid NORMAL 5
+#   python MLGame.py -i ml_play_template_Random_Cut.py -f60 arkanoid NORMAL 5
 
 ball_position_history=[]
 import random
